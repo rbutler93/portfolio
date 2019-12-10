@@ -21,6 +21,7 @@ ul{
   list-style: none;
   display: flex;
   flex-direction: row;
+  padding: 0px;
 }
 
 menu{
@@ -100,9 +101,7 @@ a:link {
   justify-content: center;
 }
 @media only screen and (max-width: 400px){
-  ul {
-    display:none;
-  }
+  
 
  body {
    text-align: left;
@@ -113,7 +112,7 @@ a:link {
  }
  .contactme{
    justify-content: left;
- }
+ }s
  .copyright{
    text-align: center;
  }
@@ -125,6 +124,9 @@ a:link {
  }
  .project {
    width:50%;
+ }
+ .projectone {
+   justify-content: left;
  }
 }
 
