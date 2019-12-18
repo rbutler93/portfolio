@@ -8,3 +8,9 @@ $(".move").on("click", function( e ) {
     }, 600);
     
 });
+
+$(document).ready(function(){
+    $('.list').click(function(){
+        $('menu').toggleClass('active');
+    })
+})
